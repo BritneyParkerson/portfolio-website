@@ -1548,6 +1548,13 @@ input, select, textarea {
 	font-size: 27px;
 }
 
+@media (max-width: 828px) {
+	#header .inner .quote{
+		font-size: 1em;
+		
+	}
+}
+
 	#work{
 		display: flex;
 		justify-content: center;
