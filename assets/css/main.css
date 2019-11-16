@@ -1551,7 +1551,7 @@ input, select, textarea {
 @media (max-width: 828px) {
 	#header .inner .quote{
 		font-size: 1em;
-		
+		color: white;
 	}
 }
 
@@ -1690,10 +1690,16 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
-	span p{
-			color: snow;
+		#footer .credit {
+			color: white;
 			font-size: 25px;
 			margin: 2% auto auto auto;
+		}
+	@media (max-width: 828px) {
+		#footer .credit {
+			   font-size: 1em;
+				color: white;
+			}
 		}
 
 		body.is-article-visible #footer {
