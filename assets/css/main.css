@@ -1541,9 +1541,7 @@ input, select, textarea {
 	font-style: oblique;
 	color: pink;
 }
-#header .inner .thanks{
-	font-size: 22px;
-}
+
 #intro, #work, #about{
 	font-size: 27px;
 }
@@ -1562,9 +1560,43 @@ input, select, textarea {
 		flex-direction: column;
 		text-align: center;
 	}
-	#work li{
-		margin-right: 90%;
+	#intro ul, #about ul {
+		margin: auto 0;
+		width: 110px;
+		padding: 2px;
+		border: 5px outset pink;
+		border-radius: 25px;
+		text-align: center;
+	}
+	#intro ul:hover, #about ul:hover{
+		border: 5px inset white;
+		background: pink;
+		color: black;
+}
+	.navigation-links ul{
+		margin: auto 0;
+		width:100px;
+		padding: 2px;
+		border: 5px outset pink;
+		border-radius: 25px;
+		text-align: center;
+	}
+	.navigation-links ul:hover{
+		border: 5px inset white;
+		background: pink;
+		color: black;
+	}
+
+	#work ul{
+		margin: 2px 90% 2px auto;
 		padding: 5px;
+		border: 5px outset pink;
+		border-radius: 25px;
+	}
+	#work ul:hover{
+		border: 5px inset white;
+		background: pink;
+		color: black;
 	}
 	#about h3{
 		font-size: 22px;
@@ -1692,7 +1724,7 @@ input, select, textarea {
 
 		#footer .credit {
 			color: white;
-			font-size: 25px;
+			font-size: 35px;
 			margin: 2% auto auto auto;
 		}
 	@media (max-width: 828px) {
